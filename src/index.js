@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Quiz from './Quiz';
+import Match from './Match';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Quiz /> */}
+    <Match />
   </React.StrictMode>,
   document.getElementById('root')
 );
